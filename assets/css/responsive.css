@@ -1,0 +1,467 @@
+/* For Mobile Portrait View */
+@media screen and (max-width: 767px) {
+
+    .sub-list .drop-icon {
+        position: absolute;
+        right: 10px;
+        top: 7%;
+        rotate: 359deg;
+    }
+
+    .navbarmobilesection {
+        height: 60px;
+    }
+
+    ul.inner-wrapper {
+        width: 100%;
+    }
+
+    .navbarmobilesection .navbar-toggler {
+        position: absolute;
+        right: 10px;
+    }
+
+    .p-3 {
+        padding: .75rem;
+    }
+
+    .navbarmobilesection .navbar-collapse {
+        z-index: 9;
+        position: absolute;
+        top: 62px;
+        background-color: #fff;
+        width: 100%;
+        left: 0px;
+        padding: 15px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        padding: 1rem;
+    }
+
+    .owl-nav {
+        transform: translateY(-29px);
+    }
+
+    header {
+        position: relative;
+    }
+
+    .cartsignmenu {
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        width: auto;
+    }
+
+    .shoptools {
+        justify-content: center !important;
+    }
+
+    .searchiconmobile {
+        display: inline-block;
+    }
+
+    .mobilesearbar {
+        display: none;
+    }
+
+    .mobilesearbar.active {
+        display: block;
+    }
+
+    .offer-strip {
+        display: none;
+    }
+
+    a.navbar-brand img {
+        margin: auto;
+        display: block;
+    }
+
+    .dropdown-wrapper {
+        position: unset;
+        left: 0;
+    }
+
+    .inner-wrapper,
+    .sub-dropdown {
+        background: var(--transparent) !important;
+        box-shadow: none !important;
+        padding: 0rem;
+        padding: 0 !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 32px;
+        height: 32px;
+    }
+
+    section.product .shop-image-wrapper img {
+        margin: auto;
+        display: block;
+    }
+
+    section.product .shop-item,
+    section.product .shop-item p {
+        text-align: center !important;
+    }
+
+    section.product .shop-item .ratings {
+        justify-content: center;
+    }
+
+    section.product .shop-item .card-body {
+        padding: 1rem !important;
+    }
+
+    .owl-next img {
+        width: 10px;
+    }
+
+    .owl-prev img {
+        width: 10px;
+    }
+
+    .owl-next {
+        right: -10% !important
+    }
+
+    .owl-prev {
+        left: -10% !important;
+    }
+
+    .dropdown-wrapper,
+    .inner-wrapper,
+    .sub-dropdown {
+        width: 100%;
+    }
+
+    .owl-carousel .owl-nav button.owl-next span,
+    .owl-carousel .owl-nav button.owl-prev span {
+        font-size: 26px;
+        color: var(--text-primary);
+    }
+
+    .mainNav .nav-link {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .sub-dropdown .nav-link,
+    .inner-wrapper .nav-link {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+    }
+
+    .dropdown .nav-item:hover>.nav-link {
+        background: var(--transparent);
+    }
+
+    .sub-dropdown {
+        position: static;
+        left: 0;
+    }
+
+    .banner h1 {
+        font-size: 1.4375rem;
+        line-height: 2.313rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .carousel-item img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    .px-5 {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .p-5 {
+        padding: 1.5rem !important;
+    }
+
+    .shop-categories {
+        padding: 1.5rem 0 !important;
+    }
+
+    .theme-title h3 {
+        font-size: 1.3rem;
+    }
+
+    .why-flamingo {
+        padding: 0 !important;
+    }
+
+    .why-flamingo-Image img {
+        margin: 0 auto 1rem auto !important;
+        width: 40%;
+    }
+
+    li.list-group-item {
+        display: inline-flex;
+        gap: 0.75rem;
+        padding: 1rem 0rem 0 !important;
+    }
+
+    .item .card {
+        width: 100% !important;
+    }
+
+    span.drop-icon {
+        right: 10px;
+    }
+
+    .footer-inner .subscribeForm {
+        flex-direction: row !important;
+    }
+
+    .shop-image-wrapper {
+        width: 60%;
+        margin: auto;
+    }
+
+    .py-5 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .shop-item {
+        padding: 0 !important;
+    }
+
+    .shop-filters a {
+        font-size: 12px;
+    }
+
+    .footer-inner .subscribeForm {
+        flex-direction: row !important;
+    }
+
+    .mobContact {
+        flex-direction: column-reverse;
+    }
+
+    .customPagination .pagination {
+        gap: unset !important;
+    }
+
+    .pb-5 {
+        padding-bottom: 1.5rem !important;
+    }
+
+    .lg-dev {
+        display: none !important;
+    }
+}
+
+/* mini iPads */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sub-list .drop-icon {
+        position: absolute;
+        right: 10px;
+        top: 4%;
+        rotate: -90deg;
+        left: auto;
+    }
+
+    .dropdown-wrapper {
+        position: static;
+        width: 100%;
+    }
+
+    ul.inner-wrapper {
+        width: 100%;
+    }
+
+    .lg-dev {
+        display: none !important;
+    }
+
+    .md-dev {
+        display: unset !important;
+    }
+
+    .shoptools {
+        justify-content: start !important;
+    }
+
+    section.product .shop-item .card-body {
+        padding: 1rem !important;
+    }
+
+    #logId {
+        position: absolute;
+        left: 50%;
+        bottom: -90px;
+        width: 100px;
+        text-align: center;
+        background-color: var(--white);
+        z-index: 99999;
+        transform: translateX(-50%);
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+    }
+
+    .inner-wrapper,
+    .sub-dropdown {
+        padding: 0rem;
+        padding: 0 !important;
+    }
+
+
+
+    #logId li:hover>a {
+        color: var(--text-primary) !important;
+    }
+
+    .carousel-item img {
+        width: 80%;
+    }
+
+    .banner h1 {
+        font-size: 1.75rem;
+        line-height: 2.313rem;
+    }
+
+    .why-flamingo li.list-group-item {
+        display: inline-flex;
+        -moz-column-gap: 5px;
+        column-gap: 5px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        padding: .75rem;
+    }
+
+    .theme-title h3 {
+        font-size: 1.7rem;
+    }
+
+    button.owl-prev {
+        left: -7%;
+    }
+
+    button.owl-next {
+        right: -7%;
+    }
+
+    .navbarmobilesection .navbar-toggler {
+        position: absolute;
+        right: 10px;
+        top: -60px;
+    }
+
+    .navbarmobilesection {
+        padding: 0;
+    }
+
+    .navbarmobilesection .navbar-collapse {
+        z-index: 9;
+        position: absolute;
+        top: 0px;
+        background-color: #fff;
+        width: 100%;
+        left: 0px;
+        padding: 15px;
+    }
+
+    span.drop-icon {
+        left: auto;
+        top: 17px;
+        right: 0;
+    }
+
+    .offer-strip {
+        display: none;
+    }
+
+    .footer-social-md {
+        justify-content: center;
+    }
+
+    .footer-inner {
+        padding: 1.5rem !important;
+    }
+
+    .mobContact {
+        align-items: center;
+    }
+}
+
+/* large mini iPads */
+@media (min-width: 820px) and (max-width: 1180px) {
+    .dropdown-wrapper {
+        position: unset !important;
+    }
+
+    section.product .shop-item .card-body {
+        padding: 1rem !important;
+    }
+
+    .inner-wrapper,
+    .sub-dropdown {
+        box-shadow: unset !important;
+        width: 100%;
+        line-height: 18px !important;
+    }
+
+    .sub-dropdown {
+        position: static;
+    }
+
+    .dropdown .nav-item:hover>.nav-link {
+        background: var(--transparent);
+    }
+
+    .sub-dropdown {
+        position: static;
+        margin-left: 0.5rem;
+    }
+
+    .md-dev {
+        display: none;
+    }
+
+    .shop-desc a,
+    .shop-desc p {
+        font-size: 16px;
+    }
+
+    button.owl-prev {
+        left: -8%;
+    }
+
+    button.owl-next {
+        right: -8%;
+    }
+
+    .blog,
+    .why-flamingo,
+    .contact-us {
+        padding: 1.5rem !important;
+    }
+
+    .list-group-item {
+        display: inline-flex;
+        -moz-column-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .shop-categories {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+}

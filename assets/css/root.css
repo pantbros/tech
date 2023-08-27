@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --offer-bg: url('../images/offer-bg.svg'), lightgray -34px -884.473px / 103.784% 2701.287% no-repeat;
+    --theme-font: 'poppins', sans-serif;
+    --offer-font: 'Manrope', sans-serif;
+    --transparent: transparent;
+    --transparent-white: #f5f5f463;
+    --theme-bg: #FA5C98;
+    --hover-nav-color: rgba(255, 237, 244, 0.38);
+    --theme-alter-bg: #FFEEF6;
+    --white-bg: #fff;
+    --text-primary: #FA5C98;
+    --prduct-price: #C0590E;
+    --white: #fff;
+    --black: #000;
+    --nxtbtn: #E08468;
+    --btn-primary: #FA5C98 !important;
+    --theme-btn: linear-gradient(#DC8064, #E98C70, #FB9E82, #FDBB9F, #FFCAAE, #F8AD92, #F19176) !important;
+    --border-primary: #FA5C98 !important;
+    --text-secondary: #B9B9B9 !important;
+    --pfc: #C1C1C1 !important;
+    --main: #FEFDFD !important;
+    --prev-nav: url('../images/banner/nav-prev.svg') !important;
+    --next-nav: url('../images/banner/nav-next.svg') !important;
+}
