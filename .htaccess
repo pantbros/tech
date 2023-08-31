@@ -1,7 +1,7 @@
-ErrorDocument 404 http://example.com/not-found.html/
-ErrorDocument 500 http://example.com/500/
+ErrorDocument 404 https://pantbros.github.io/tech/not-found.html/
+ErrorDocument 500 https://pantbros.github.io/tech/500
 # or map them to one error document:
-# ErrorDocument 404 not found.html
+# ErrorDocument 404 not-found.html
 
 RewriteEngine On
 RewriteBase /
