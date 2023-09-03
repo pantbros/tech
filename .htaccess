@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ErrorDocument 404 http://example.com/not-found.html/
 ErrorDocument 500 http://example.com/500/
 # or map them to one error document:
@@ -5,3 +6,12 @@ ErrorDocument 500 http://example.com/500/
 
 RewriteEngine On
 RewriteBase /
+=======
+ErrorDocument 404 https://pantbros.github.io/tech/not-found.html/
+ErrorDocument 500 https://pantbros.github.io/tech/500
+# or map them to one error document:
+# ErrorDocument 404 not-found.html
+
+RewriteEngine On
+RewriteBase /
+>>>>>>> bc576af034b247de398b0c9dbfb590f6c2daa802
