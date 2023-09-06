@@ -5,8 +5,12 @@
         position: absolute;
         right: 10px;
         top: 7%;
-        rotate: 359deg;
-    }
+        transform:rotate(359deg);
+        -webkit-transform:rotate(359deg);
+        -moz-transform:rotate(359deg);
+        -ms-transform:rotate(359deg);
+        -o-transform:rotate(359deg);
+}
 
     .navbarmobilesection {
         height: 60px;
@@ -269,9 +273,13 @@
         position: absolute;
         right: 10px;
         top: 4%;
-        rotate: -90deg;
+        transform: rotate(-90deg);
         left: auto;
-    }
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+}
 
     .dropdown-wrapper {
         position: static;
